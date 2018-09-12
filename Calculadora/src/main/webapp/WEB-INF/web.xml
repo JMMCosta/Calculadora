@@ -16,6 +16,16 @@
 		<param-name>resteasy.resources</param-name>
 		<param-value>br.com.db1.rest.MessageRestService</param-value>
 	</context-param>
+	
+<context-param>
+		<param-name>resteasy.resources</param-name>
+		<param-value>br.com.db1.rest.EhPar</param-value>
+	</context-param>
+
+<context-param>
+		<param-name>resteasy.resources</param-name>
+		<param-value>br.com.db1.rest.SomaRestService</param-value>
+	</context-param>
 
 	<listener>
 		<listener-class>
