@@ -11,8 +11,8 @@ public class EhPar {
 	@GET
 	@Path("/{param}")
 	public Response printMessage(@PathParam("param") Integer num) {
-		String result = "Restful example : " + num;
-		return Response.status(200).entity(result).build();
+		String resulte = "Restful example : " + num;
+		return Response.status(200).entity(resulte).build();
 	}
 
 }
